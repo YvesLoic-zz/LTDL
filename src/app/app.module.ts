@@ -1,3 +1,4 @@
+import { LoginModule } from './login/login.module';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {NgModule} from '@angular/core';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
@@ -19,7 +20,7 @@ import {MapsComponent} from './maps/maps.component';
 import {NotificationsComponent} from './notifications/notifications.component';
 import {UpgradeComponent} from './upgrade/upgrade.component';
 import {AdminLayoutComponent} from './layouts/admin-layout/admin-layout.component';
-import {LoginModule} from './login/login.module';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
     imports: [
@@ -35,6 +36,7 @@ import {LoginModule} from './login/login.module';
     declarations: [
         AppComponent,
         AdminLayoutComponent,
+        // LoginComponent,
     ],
     providers: [],
     bootstrap: [AppComponent]
